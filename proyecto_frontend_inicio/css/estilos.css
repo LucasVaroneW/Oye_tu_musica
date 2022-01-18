@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=K2D:wght@100&display=swap");
+
+*{
+    font-family: 'roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1, h2{
+    font-family: 'K2D' !important;
+}
+
+a{
+    text-decoration: inherit !important;
+    color: white !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 20px 0;
+    text-align: center;
+    background: black;
+}
+
+.scroll{
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    font-size: .8rem;
+    line-height: 1;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: white;
+    text-decoration: inherit !important;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.home {
+    min-height: 90vh;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.8);
+    position: relative;
+}
+
+.home__background {
+    background-image: url(../imagenes/portada.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+}
+
+body{
+    text-align: center;
+    background-color: black;
+}
+
+#top-3{
+    position: relative;
+}
+
+.error{
+    color:red;
+}
+
+.row_footer {
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+
+
+@media (max-width: 880px) {
+    #movilFirst{
+        display: none;
+    }
+    .container{
+        width: 90%;
+        padding: 10px;
+    }
+
+    body{
+        height: 80%;
+    }
+    .row_canciones{
+        grid-template-columns: 1fr 1fr !important;
+    }
+    .carousel-inner {
+        margin-bottom: 20px;
+    }
+  }
+
+@media (max-width: 508px){
+    .row_canciones{
+        grid-template-columns: 1fr !important;
+    }
+}
+
+#canciones_center{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr !important;
+}
+

@@ -21,13 +21,6 @@ Tener un navegador web.
 
 Para instalar el proyecto se debe debe descargar el repositorio como zip y descomprimirlo.
 
-### Uso
-
-Para poder usar el proyecto se debe abrir el navegador web y navegar a la dirección:
-
-```
-http://localhost/OyeTuMusica-master/
-```
 
 ## Construido con
 
